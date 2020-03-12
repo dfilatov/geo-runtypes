@@ -1,6 +1,6 @@
 {
   "name": "geo-runtypes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runtypes for geometry types",
   "homepage": "https://github.com/dfilatov/geo-runtypes",
   "author": "Dmitry Filatov <dfilatov@inbox.ru>",
