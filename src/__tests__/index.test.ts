@@ -22,7 +22,7 @@ describe('BBox', () => {
     });
 
     it('should not accept invalid value', () => {
-        const bbox = ['0', '0', '1', '1'];
+        const bbox = [0, 1];
 
         expect(() => {
             BBox.check(bbox);

@@ -1,10 +1,13 @@
 import * as runtypes from 'runtypes';
 
-const BBox = runtypes.Array(runtypes.Number);
+const BBox = runtypes.Tuple(runtypes.Number, runtypes.Number, runtypes.Number, runtypes.Number);
 
 type BBox = runtypes.Static<typeof BBox>;
 
-const Bounds = runtypes.Array(runtypes.Array(runtypes.Number));
+const Bounds = runtypes.Tuple(
+    runtypes.Tuple(runtypes.Number, runtypes.Number),
+    runtypes.Tuple(runtypes.Number, runtypes.Number)
+);
 
 type Bounds = runtypes.Static<typeof Bounds>;
 
